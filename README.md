@@ -1,14 +1,14 @@
-# Joy VoyagerReplaceKeyword
+# Joy VoyagerWidgets
 
-This [Laravel](https://laravel.com/)/[Voyager](https://voyager.devdojo.com/) module adds VoyagerReplaceKeyword support to Voyager.
+This [Laravel](https://laravel.com/)/[Voyager](https://voyager.devdojo.com/) module adds VoyagerWidgets support to Voyager.
 
 By 🐼 [Ramakant Gangwar](https://github.com/rxcod9).
 
-[![Screenshot](https://raw.githubusercontent.com/rxcod9/joy-voyager-replace-keyword/main/cover.jpg)](https://joy-voyager.herokuapp.com/)
+[![Screenshot](https://raw.githubusercontent.com/rxcod9/joy-voyager-widgets/main/cover.jpg)](https://joy-voyager.herokuapp.com/)
 
-[![Latest Version](https://img.shields.io/github/v/release/rxcod9/joy-voyager-replace-keyword?style=flat-square)](https://github.com/rxcod9/joy-voyager-replace-keyword/releases)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rxcod9/joy-voyager-replace-keyword/run-tests?label=tests)
-[![Total Downloads](https://img.shields.io/packagist/dt/joy/voyager-replace-keyword.svg?style=flat-square)](https://packagist.org/packages/joy/voyager-replace-keyword)
+[![Latest Version](https://img.shields.io/github/v/release/rxcod9/joy-voyager-widgets?style=flat-square)](https://github.com/rxcod9/joy-voyager-widgets/releases)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rxcod9/joy-voyager-widgets/run-tests?label=tests)
+[![Total Downloads](https://img.shields.io/packagist/dt/joy/voyager-widgets.svg?style=flat-square)](https://packagist.org/packages/joy/voyager-widgets)
 
 ---
 
@@ -24,10 +24,10 @@ By 🐼 [Ramakant Gangwar](https://github.com/rxcod9).
 
 ```bash
 # 1. Require this Package in your fresh Laravel/Voyager project
-composer require joy/voyager-replace-keyword
+composer require joy/voyager-widgets
 
 # 2. Publish
-php artisan vendor:publish --provider="Joy\VoyagerReplaceKeyword\VoyagerReplaceKeywordServiceProvider" --force
+php artisan vendor:publish --provider="Joy\VoyagerWidgets\VoyagerWidgetsServiceProvider" --force
 ```
 
 ---
@@ -39,7 +39,7 @@ You can try laravel demo here [https://joy-voyager.herokuapp.com/admin/users](ht
 
 ## Documentation
 
-Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving the joy voyager-replace-keyword? Feel free to [create an issue on GitHub](https://github.com/rxcod9/joy-voyager-replace-keyword/issues), we'll try to address it as soon as possible.
+Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving the joy voyager-widgets? Feel free to [create an issue on GitHub](https://github.com/rxcod9/joy-voyager-widgets/issues), we'll try to address it as soon as possible.
 
 If you've found a bug regarding security please mail [gangwar.ramakant@gmail.com](mailto:gangwar.ramakant@gmail.com) instead of using the issue tracker.
 

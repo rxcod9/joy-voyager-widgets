@@ -1,8 +1,8 @@
 <?php
 
-namespace Joy\VoyagerReplaceKeyword\ReplaceKeywords;
+namespace Joy\VoyagerWidgets\Widgetss;
 
-class ReplaceKeyword
+class Widgets
 {
     /**
      * Create new instance
