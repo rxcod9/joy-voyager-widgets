@@ -28,8 +28,6 @@ class VoyagerWidgetsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Voyager::addAction(\Joy\VoyagerWidgets\Actions\WidgetsAction::class);
-
         $this->registerPublishables();
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'joy-voyager-widgets');
