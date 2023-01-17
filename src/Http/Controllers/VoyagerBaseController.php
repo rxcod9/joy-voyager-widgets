@@ -3,9 +3,9 @@
 namespace Joy\VoyagerWidgets\Http\Controllers;
 
 use Joy\VoyagerWidgets\Http\Traits\WidgetsAction;
-use TCG\Voyager\Http\Controllers\VoyagerBaseController as TCGVoyagerBaseController;
+use Joy\VoyagerCore\Http\Controllers\VoyagerBaseController as BaseVoyagerBaseController;
 
-class VoyagerBaseController extends TCGVoyagerBaseController
+class VoyagerBaseController extends BaseVoyagerBaseController
 {
     use WidgetsAction;
 }
