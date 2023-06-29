@@ -7,7 +7,6 @@ namespace Joy\VoyagerWidgets;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Joy\VoyagerWidgets\Console\Commands\Widgets;
-use TCG\Voyager\Facades\Voyager;
 
 /**
  * Class VoyagerWidgetsServiceProvider
